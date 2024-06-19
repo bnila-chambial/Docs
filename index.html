@@ -3,6 +3,7 @@
  <head>
   <title>Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 <!-- side navigation-->
@@ -14,6 +15,15 @@
   <a href="#">Contact</a>
 </div>
 <span onclick="openNav()">open</span>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
 <h1>Portfolio</h1>
 <div>
   <h2></h2>
