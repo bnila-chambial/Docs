@@ -14,7 +14,16 @@
   <a href="#">Writing Samples</a>
   <a href="#">Contact</a>
 </div>
+<p>Click on the element below to open the side navigation menu.</p>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
 
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
 <h1>Portfolio</h1>
 <div>
   <h2></h2>
