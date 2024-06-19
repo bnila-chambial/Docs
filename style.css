@@ -20,7 +20,7 @@ header {
 nav {
   float: left;
   width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
+  height: 400px; /* only for demonstration, should be removed */
   background-color: #95B9C7;
   padding: 20px;
 }
@@ -29,14 +29,6 @@ nav {
 nav ul {
   list-style-type: none;
   padding: 0;
-}
-
-article {
-  float: right;
-  padding: 20px;
-  width: 70%;
-  background-color: #87AFC7;
-  height: 300px; /* only for demonstration, should be removed */
 }
 
 /* Clear floats after the columns */
@@ -53,14 +45,5 @@ footer {
   text-align: center;
   color: white;
 }
-
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-<!--
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
--->
 }
 </style>
