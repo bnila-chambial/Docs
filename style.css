@@ -29,14 +29,6 @@ nav ul {
   list-style-type: none;
   padding: 0;
 }
-main {
-  float: right;
-  width: 80%;
-  height: 400px; /* only for demonstration, should be removed */
-  background-color: #F7F9F9;
-  padding: 20px;
-}
-
 /* Clear floats after the columns */
 section::after {
   content: "";
