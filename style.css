@@ -29,10 +29,10 @@ nav ul {
   padding: 0;
 }
 main {
-  float: right;
+  float: left;
   width: 70%;
   height: 400px; /* only for demonstration, should be removed */
-  background-color: #95B9C7;
+  background-color: #EAEFEF;
   padding: 10px;
 }
 /* Clear floats after the columns */
