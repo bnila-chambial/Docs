@@ -30,7 +30,7 @@ nav ul {
   padding: 0;
 }
 main {
-  float: left;
+  float: right;
   width: 80%;
   height: 400px; /* only for demonstration, should be removed */
   background-color: #F7F9F9;
