@@ -7,16 +7,16 @@ body {
 }
 
 /* Style the header */
-header {
+.header {
   background-color: #659EC7;
   padding: 10px;
   text-align: center;
-  font-size: 35px;
+  font-size: 20px;
   color: white;
 }
 
 /* Create two columns/boxes that floats next to each other */
-nav {
+.nav {
   float: left;
   width: 20%;
   height: 400px; /* only for demonstration, should be removed */
@@ -30,7 +30,7 @@ nav ul {
   padding: 0;
 }
 /* Clear floats after the columns */
-section::after {
+.section::after {
   content: "";
   display: table;
   clear: both;
