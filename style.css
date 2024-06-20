@@ -5,7 +5,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
-
 /* Style the header */
 .header {
   background-color: #659EC7;
@@ -25,7 +24,7 @@ body {
 }
 
 /* Style the list inside the menu */
-nav ul {
+.nav ul {
   list-style-type: none;
   padding: 0;
 }
@@ -37,7 +36,7 @@ nav ul {
 }
 
 /* Style the footer */
-footer {
+.footer {
   background-color: #659EC7;
   padding: 10px;
   text-align: center;
